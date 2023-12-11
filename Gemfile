@@ -42,6 +42,9 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+# Simple, multi-client and secure token-based authentication for Rails
+gem "devise_token_auth"
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
