@@ -8,3 +8,15 @@ Metrics/MethodLength:
 
 Layout/EndOfLine:
   Enabled: false
+
+Layout/ClosingParenthesisIndentation:
+  Enabled: false
+
+Layout/FirstHashElementIndentation:
+  Enabled: false
+
+Layout/FirstArgumentIndentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false

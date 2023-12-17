@@ -50,6 +50,12 @@ gem 'devise_token_auth'
 # A RuboCop extension focused on enforcing Rails best practices and coding conventions
 gem 'rubocop-rails', require: false
 
+# It's a library for generating fake data such as names, addresses, and phone numbers.
+gem 'faker'
+
+# Blueprinter takes business objects and breaks them down into simple hashes and serializes them to JSON
+gem 'blueprinter'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
@@ -59,6 +65,7 @@ gem 'rubocop-rails', require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem 'debug', platforms: %i[mri mingw x64_mingw]
+  gem 'factory_bot_rails'
 end
 
 group :development do
