@@ -15,10 +15,10 @@ RSpec.describe 'Auth::Sessions', type: :request do
 
         expect(response).to have_http_status(:success)
         expect(response.parsed_body.deep_symbolize_keys).to(match(
-            {
-                email: user.email,
-                id: 1
-            }
+          {
+            email: user.email,
+            id: 1
+          }
         ))
       end
     end
@@ -32,9 +32,9 @@ RSpec.describe 'Auth::Sessions', type: :request do
 
         expect(response).to have_http_status(:unauthorized)
         expect(response.parsed_body.deep_symbolize_keys).to(match(
-            {
-                messages: ['Invalid login credentials. Please try again.']
-            }
+          {
+            messages: ['Invalid login credentials. Please try again.']
+          }
         ))
       end
     end
