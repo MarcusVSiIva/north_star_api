@@ -56,6 +56,9 @@ gem 'faker'
 # Blueprinter takes business objects and breaks them down into simple hashes and serializes them to JSON
 gem 'blueprinter'
 
+# Provides support for Cross-Origin Resource Sharing (CORS) for Rack compatible web applications.
+gem 'rack-cors'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
